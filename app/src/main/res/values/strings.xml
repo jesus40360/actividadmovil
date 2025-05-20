@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Hola Mundo</string>
+    <string name="titulo">Mi primer aplicacion Android</string>
+    <string name="tunombre">Cual es tu nombre?</string>
+    <string name="pulsar">pulsame</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="cerrar">Cerrar</string>
+
+</resources>
