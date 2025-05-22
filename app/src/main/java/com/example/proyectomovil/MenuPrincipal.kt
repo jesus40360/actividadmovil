@@ -26,8 +26,10 @@ class MenuPrincipal : AppCompatActivity() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
+
     fun abrirIMC(view: View) {
-        Toast.makeText(this, "Abrir IMC", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, ImcActividad::class.java) // CORREGIDO
+        startActivity(intent)
     }
 
     fun abrirConversion(view: View) {
@@ -45,5 +47,4 @@ class MenuPrincipal : AppCompatActivity() {
     fun abrirSpinner(view: View) {
         Toast.makeText(this, "Abrir Spinner", Toast.LENGTH_SHORT).show()
     }
-
 }
