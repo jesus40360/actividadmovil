@@ -72,7 +72,6 @@ class ImcActividad : AppCompatActivity() {
 
             val imc = peso / (estatura * estatura)
 
-            // Clasificación del IMC
             val clasificacion = when {
                 imc < 18.5 -> "Bajo peso"
                 imc < 25.0 -> "Peso normal"

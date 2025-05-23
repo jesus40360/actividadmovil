@@ -28,12 +28,13 @@ class MenuPrincipal : AppCompatActivity() {
     }
 
     fun abrirIMC(view: View) {
-        val intent = Intent(this, ImcActividad::class.java) // CORREGIDO
+        val intent = Intent(this, ImcActividad::class.java)
         startActivity(intent)
     }
 
     fun abrirConversion(view: View) {
-        Toast.makeText(this, "Abrir Conversión", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, ConversionActividad::class.java)
+        startActivity(intent)
     }
 
     fun abrirMoneda(view: View) {

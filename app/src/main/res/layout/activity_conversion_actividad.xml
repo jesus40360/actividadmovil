@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conversión de Temperatura"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#002b4e"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/txtGrados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa un valor"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="20dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+            android:id="@+id/radioCelsius"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:minHeight="48dp"
+            android:gravity="center_vertical"
+            android:text="Celsius a Fahrenheit"
+            android:textSize="20sp"
+            android:textColor="#002b4e"
+            android:padding="10dp"
+            android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioFahrenheit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:minHeight="48dp"
+                android:gravity="center_vertical"
+                android:text="Fahrenheit a Celsius"
+                android:textSize="20sp"
+                android:textColor="#002b4e"
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConvertir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONVERTIR"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#002b4e"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/lblResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="#002b4e"
+            android:background="#f0f0f0"
+            android:padding="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnLimpiar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LIMPIAR"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#666666"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SALIR"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#d32f2f"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
