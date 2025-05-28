@@ -13,6 +13,7 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
+        <!-- Cliente y folio -->
         <TextView
             android:id="@+id/txtCliente"
             android:layout_width="match_parent"
@@ -34,12 +35,15 @@
             android:layout_marginBottom="16dp"
             android:gravity="center" />
 
+        <!-- Datos del auto -->
         <EditText
             android:id="@+id/txtDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/des"
             android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:background="@android:drawable/edit_text"
             android:padding="12dp"
             android:layout_marginBottom="16dp" />
@@ -50,6 +54,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/po"
             android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:background="@android:drawable/edit_text"
             android:padding="12dp"
             android:layout_marginBottom="16dp" />
@@ -60,20 +66,72 @@
             android:layout_height="wrap_content"
             android:hint="@string/precio"
             android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:background="@android:drawable/edit_text"
             android:padding="12dp"
             android:layout_marginBottom="16dp" />
 
-        <EditText
-            android:id="@+id/txtPlazos"
+        <!-- Título plazos -->
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/plazos"
-            android:inputType="number"
-            android:background="@android:drawable/edit_text"
-            android:padding="12dp"
-            android:layout_marginBottom="24dp" />
+            android:text="@string/plazos"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/rojo"
+            android:paddingBottom="20sp" />
 
+
+        <RadioGroup
+            android:id="@+id/radioGroupPlazos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/rdb12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:text="12 Meses"
+                android:checked="true"
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/rdb24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:text="24 Meses"
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/rdb36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:text="36 Meses"
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/rdb48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:text="48 Meses"
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <!-- Resultados -->
         <TextView
             android:id="@+id/txtPagoInicial"
             android:layout_width="match_parent"
@@ -101,6 +159,7 @@
             android:textColor="#000000"
             android:layout_marginBottom="24dp" />
 
+        <!-- Botones -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
