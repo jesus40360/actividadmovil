@@ -1,6 +1,5 @@
 package com.example.proyectomovil
 
-import android.widget.Toast
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -38,14 +37,18 @@ class MenuPrincipal : AppCompatActivity() {
     }
 
     fun abrirMoneda(view: View) {
-        Toast.makeText(this, "Abrir Moneda", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, MonedaActividad::class.java)
+        startActivity(intent)
     }
 
     fun abrirCotizacion(view: View) {
-        Toast.makeText(this, "Abrir Cotización", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, ClienteActividad::class.java)
+        startActivity(intent)
     }
 
     fun abrirSpinner(view: View) {
-        Toast.makeText(this, "Abrir Spinner", Toast.LENGTH_SHORT).show()
+        // En caso de tener SpinnerActividad implementada
+        // val intent = Intent(this, SpinnerActividad::class.java)
+        // startActivity(intent)
     }
 }

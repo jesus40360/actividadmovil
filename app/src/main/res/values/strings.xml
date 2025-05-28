@@ -6,4 +6,30 @@
     <string name="limpiar">Limpiar</string>
     <string name="cerrar">Cerrar</string>
 
+    <string name="dolar_a">17.25</string> <!-- Peso mexicano a dólar americano -->
+    <string name="dolar_c">19.00</string> <!-- Peso mexicano a dólar canadiense -->
+    <string name="euro">18.00</string> <!-- Peso mexicano a euro -->
+
+    <string-array name="array_converciones">
+        <item>MXN a USD</item>
+        <item>MXN a CAD</item>
+        <item>MXN a EUR</item>
+        <item>USD a MXN</item>
+        <item>CAD a MXN</item>
+        <item>EUR a MXN</item>
+    </string-array>
+
+    <string name="domicilio">Av. del Mar 1200</string>
+    <string name="ciudad">Mazatlán Sinaloa</string>
+    <string name="marca">Toyota</string>
+    <string name="cliente">Nombre del Cliente</string>
+    <string name="folio">Num. Folio</string>
+    <string name="des">Descripción del Automóvil</string>
+    <string name="precio">Valor del Automóvil</string>
+    <string name="po">Porcentaje de pago Inicial</string>
+    <string name="plazos">Plazos</string>
+    <string name="pmensual">Pago Mensual</string>
+    <string name="pinicial">Pago Inicial</string>
+    <string name="tfin">Total a Financiar</string>
+
 </resources>
