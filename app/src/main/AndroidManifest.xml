@@ -14,7 +14,13 @@
         android:theme="@style/Theme.ProyectoMovil"
         tools:targetApi="31">
         <activity
-            android:name=".Cotizacion"
+            android:name=".NominaActividad"
+            android:exported="false" />
+        <activity
+            android:name=".InicioSesion"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerActividad"
             android:exported="false" />
         <activity
             android:name=".CotizacionActividad"

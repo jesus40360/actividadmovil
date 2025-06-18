@@ -6,9 +6,22 @@
     <string name="limpiar">Limpiar</string>
     <string name="cerrar">Cerrar</string>
 
-    <string name="dolar_a">17.25</string> <!-- Peso mexicano a dólar americano -->
-    <string name="dolar_c">19.00</string> <!-- Peso mexicano a dólar canadiense -->
-    <string name="euro">18.00</string> <!-- Peso mexicano a euro -->
+    <string name="tituloImc">Calculadora de IMC</string>
+    <string name="peso">Peso (kg):</string>
+    <string name="hint_peso">Ejemplo: 70.5</string>
+    <string name="estatura">Estatura (m):</string>
+    <string name="hintEstatura">Ejemplo: 1.75</string>
+    <string name="btnCalcularImc">Calcular IMC</string>
+
+    <string name="tituloConversion">Conversión de Temperatura</string>
+    <string name="hintGrados">Ingresa un valor</string>
+    <string name="celsiusaFahrenheit">Celsius a Fahrenheit</string>
+    <string name="fahrenheitaCelsius">Fahrenheit a Celsius</string>
+    <string name="btnConvertir">Convertir</string>
+
+    <string name="btnLimpiar">LIMPIAR</string>
+    <string name="btnSalir">SALIR</string>
+
 
     <string-array name="array_converciones">
         <item>MXN a USD</item>
@@ -31,5 +44,37 @@
     <string name="pmensual">Pago Mensual</string>
     <string name="pinicial">Pago Inicial</string>
     <string name="tfin">Total a Financiar</string>
+
+    <string name="spinner_name">Spinner Personalizado</string>
+    <string name="itemFraces">Categorias de Fraces</string>
+    <string name="itemAgradecimiento">Agradecimiento</string>
+    <string name="itemAmor">Amor</string>
+    <string name="itemNewYear">Año Nuevo</string>
+    <string name="itemCanciones">Canciones</string>
+
+    <string name="msgFrace">Desplegar</string>
+    <string name="msgAgradecimiento">Prueba dar las Gracias</string>
+    <string name="msgAmor">Enamora con estas frases</string>
+    <string name="msgNewYear">Feliz año Nuevo</string>
+    <string name="msgCanciones">Escucha solo lo mejor</string>
+    <string name="msgSeleccion">Se ha seleccionado</string>
+    <string name="msgDescripcion">Selecciona una Categoria</string>
+
+    <string name="titulo_nomina">Calculo de Pago de Nomina</string>
+    <string name="autor_nomina">Evaristo Toscano</string>
+    <string name="recibo">Número de recibo</string>
+    <string name="nombre">Nombre</string>
+    <string name="horas_trabajadas">Horas trabajadas</string>
+    <string name="horas_extras">Horas Extras</string>
+    <string name="puesto">Puesto</string>
+    <string name="auxiliar">Auxiliar</string>
+    <string name="albanil">Albañil</string>
+    <string name="ingeniero">Ing. Obra</string>
+    <string name="calcular">Calcular</string>
+    <string name="regresar">Regresar</string>
+    <string name="subtotal">Subtotal:</string>
+    <string name="impuesto">Impuesto:</string>
+    <string name="total_pagar">Total a pagar:</string>
+    <string name="ingrese_nombre">Falta capturar el nombre del trabajador</string>
 
 </resources>

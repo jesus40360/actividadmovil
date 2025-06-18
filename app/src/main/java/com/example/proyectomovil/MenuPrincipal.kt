@@ -47,8 +47,13 @@ class MenuPrincipal : AppCompatActivity() {
     }
 
     fun abrirSpinner(view: View) {
-        // En caso de tener SpinnerActividad implementada
-        // val intent = Intent(this, SpinnerActividad::class.java)
-        // startActivity(intent)
+        val intent = Intent(this, SpinnerActividad::class.java)
+        startActivity(intent)
     }
+
+    fun abrirNomina(view: View) {
+        val intent = Intent(this, InicioSesion::class.java)
+        startActivity(intent)
+    }
+
 }
