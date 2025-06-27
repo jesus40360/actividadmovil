@@ -51,7 +51,15 @@
     <string name="itemAmor">Amor</string>
     <string name="itemNewYear">Año Nuevo</string>
     <string name="itemCanciones">Canciones</string>
-
+    <string name="alumno_jose">Jose Santamaria Diaz</string>
+    <string name="alumno_carolina">Carolina Sarmiento Estrada</string>
+    <string name="alumno_jade">Jade Camacho Osuna</string>
+    <string name="alumno_daniel">Daniel Lopez Tirado</string>
+    <string name="itemlistado">Listado de Alumnos</string>
+    <string name="alumno_alfredo">Alfredo Cruz Alatorre</string>
+    <string name="alumno_anddy">Anddy Santander Peralta</string>
+    <string name="alumno_azul">Azul Cota Rodriguez</string>
+    <string name="alumno_santiago">Santiago Avila Benites</string>
     <string name="msgFrace">Desplegar</string>
     <string name="msgAgradecimiento">Prueba dar las Gracias</string>
     <string name="msgAmor">Enamora con estas frases</string>
@@ -59,6 +67,7 @@
     <string name="msgCanciones">Escucha solo lo mejor</string>
     <string name="msgSeleccion">Se ha seleccionado</string>
     <string name="msgDescripcion">Selecciona una Categoria</string>
+    <string name="txtSeleccion">Seleccionate a</string>
 
     <string name="titulo_nomina">Calculo de Pago de Nomina</string>
     <string name="autor_nomina">Evaristo Toscano</string>
